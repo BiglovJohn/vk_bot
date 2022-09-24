@@ -1,5 +1,6 @@
 ## Содержание
 - [Установка проекта](#Установка)
+- [Docker](#Docker)
 - [Инструкция](#Инструкция)
 - [Unit-тесты](#Тесты)
 
@@ -23,6 +24,12 @@ python -m venv venv
 ### Установка зависимостей:
 ```shell
 python - m pip install -r requirements.txt
+```
+
+## Docker
+Для работы с Docker воспользуйтесь командой
+```
+docker pull johnbiglov/test_vk_bot:latest
 ```
 
 ## Инструкция
