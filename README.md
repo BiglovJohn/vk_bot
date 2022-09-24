@@ -16,7 +16,7 @@ python -m venv venv
 
 ### Активировать окружение:
 ```shell
-Для UNIX 'source\venv\bin\activate'
+Для UNIX 'source venv\bin\activate'
 Для Windows 'venv\Scripts\Activate.bat'
 ```
 
