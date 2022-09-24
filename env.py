@@ -10,15 +10,15 @@ if not os.path.exists("log"):
 
 class Environment:
     GROUP_ID: str = str(environ.get(
-        "GROUP_ID", default="211527491"
+        "GROUP_ID", default="YOUR_GROUP_ID"
     ))
 
     TOKEN: str = str(environ.get(
-        "TOKEN", default="e67872ebfc86d94ebd6ed43d7db7ba925fc3fd7b603699a44fe79a762f1f6b8bdf6f529be8300983a80c9"
+        "TOKEN", default="YOUR_TOKEN"
     ))
 
     API_VERSION: float = float(environ.get(
-        "API_VERSION", default="5.131"
+        "API_VERSION", default="YOUR_API_VERSION"
     ))
 
 
